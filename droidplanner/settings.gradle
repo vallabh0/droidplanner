@@ -1,0 +1,5 @@
+include ':Mavlink'
+include ':HorizontalVariableListView:HorizontalVariableListView'
+include ':Android'
+include ':Core'
+include ':usb-serial-for-android:UsbSerialLibrary'

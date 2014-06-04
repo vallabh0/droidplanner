@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewDescM"
+        style="@style/ModeDetailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mode_desc_rectangle"
+        android:padding="10dp"
+        android:text="@string/setup_mag_start" />
+
+    <Button
+        android:id="@+id/buttonMag"
+        style="@style/modeControl"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_green"
+        android:text="@string/button_setup_calibrate" />
+
+</LinearLayout>
